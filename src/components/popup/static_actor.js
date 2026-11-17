@@ -1,0 +1,160 @@
+import Meta from 'gi://Meta';
+import * as Main from 'resource:///org/gnome/shell/ui/main.js';
+
+import { get_pipeline_id } from '../../conveniences/style.js';
+import { StaticBlur } from '../../render/static_blur/static_blur.js';
+import { has_style_class } from './actors.js';
+import { transform_to_actor_space } from './surface/geometry.js';
+import { PopupBlurAllocation } from './surface/allocation.js';
+
+export const PopupBlurStaticActor = class PopupBlurStaticActor {
+    constructor(settings, target, root_actor, parent, get_corner_radius, get_corners) {
+        this.settings = settings;
+        this.target = target;
+        this.root_actor = root_actor;
+        this.parent = parent;
+        this.get_corner_radius = get_corner_radius;
+        this.get_corners = get_corners;
+        this.background_group = null;
+        this.allocation_constraint = null;
+        this.blur_actor = null;
+        this.background_opacity = null;
+        this.clip = null;
+    }
+
+    create() {
+        const monitor = Main.layoutManager.findMonitorForActor(this.target)
+            ?? Main.layoutManager.findMonitorForActor(this.root_actor)
+            ?? Main.layoutManager.primaryMonitor;
+        if (!monitor)
+            return false;
+
+        this.background_group = new Meta.BackgroundGroup({
+            name: 'bms-popup-backgroundgroup',
+            width: 0,
+            height: 0,
+        });
+        this.background_group.hide();
+        if (this.parent === Main.layoutManager.modalDialogGroup) {
+            this.allocation_constraint = new PopupBlurAllocation();
+            this.background_group.add_constraint(this.allocation_constraint);
+        }
+
+        this.create_background(monitor);
+        return true;
+    }
+
+    get actor() {
+        return this.background_group;
+    }
+
+    create_background(monitor) {
+        this.blur_actor = new StaticBlur({
+            name: 'bms-popup-blurred-widget',
+            monitorIndex: monitor.index,
+            pipelineId: get_pipeline_id(this.settings.popup),
+            getRadius: this.get_corner_radius,
+            getCorners: this.get_corners,
+        });
+        this.blur_actor.hide();
+        this.background_group.insert_child_at_index(this.blur_actor, 0);
+    }
+
+    is_screenshot_ui() {
+        return has_style_class(this.target, 'screenshot-ui-panel')
+            || has_style_class(this.root_actor, 'screenshot-ui-panel');
+    }
+
+    update_geometry(target_rect, visible_rect, monitor_index) {
+        const monitor = Main.layoutManager.monitors[monitor_index];
+        if (!monitor)
+            return null;
+
+        if (monitor.index !== this.blur_actor.monitorIndex) {
+            this.destroy_background();
+            this.create_background(monitor);
+        }
+
+        const monitor_geometry = transform_to_actor_space(this.parent, monitor);
+        const target_geometry = transform_to_actor_space(this.parent, target_rect);
+        const clip = {
+            x: Math.round(target_geometry.x - monitor_geometry.x),
+            y: Math.round(target_geometry.y - monitor_geometry.y),
+            width: Math.ceil(target_geometry.width),
+            height: Math.ceil(target_geometry.height),
+        };
+
+        // The wallpaper child already uses monitor-relative positioning and
+        // clipping. Keep its container at the parent's origin under BinLayout.
+        this.allocation_constraint?.set_geometry(0, 0, monitor_geometry.width, monitor_geometry.height);
+        if (this.allocation_constraint || this.is_screenshot_ui()) {
+            this.background_group.set_position(0, 0);
+            this.background_group.set_size(monitor_geometry.width, monitor_geometry.height);
+        }
+
+        if (this.blur_actor.x !== monitor_geometry.x || this.blur_actor.y !== monitor_geometry.y)
+            this.blur_actor.set_position(monitor_geometry.x, monitor_geometry.y);
+        if (
+            this.blur_actor.width !== monitor_geometry.width
+            || this.blur_actor.height !== monitor_geometry.height
+        )
+            this.blur_actor.set_size(monitor_geometry.width, monitor_geometry.height);
+
+        if (
+            this.clip?.x !== clip.x
+            || this.clip.y !== clip.y
+            || this.clip.width !== clip.width
+            || this.clip.height !== clip.height
+        ) {
+            this.blur_actor.set_clip(clip.x, clip.y, clip.width, clip.height);
+            this.clip = clip;
+        }
+
+        this.update_visible_clip(visible_rect);
+        this.blur_actor.show();
+        return clip;
+    }
+
+    /// The clip of the blur actor gives its effects their shape, so the group cuts what is hidden.
+    update_visible_clip(visible_rect) {
+        if (!visible_rect) {
+            this.background_group.remove_clip();
+            return;
+        }
+
+        const { x, y, width, height } = transform_to_actor_space(this.parent, visible_rect);
+        this.background_group.set_clip(x, y, width, height);
+    }
+
+    has_opacity(opacity) {
+        return this.background_opacity === opacity
+            && this.background_group.opacity === opacity;
+    }
+
+    set_opacity(opacity) {
+        this.background_group.opacity = opacity;
+        this.blur_actor.opacity = 255;
+        this.background_opacity = opacity;
+    }
+
+    update_settings() {
+        this.blur_actor.updateCorners();
+    }
+
+    update_pipeline() {
+        this.blur_actor.setPipeline(get_pipeline_id(this.settings.popup));
+    }
+
+    destroy() {
+        this.destroy_background();
+        this.background_group.destroy();
+        this.background_group = null;
+    }
+
+    destroy_background() {
+        this.blur_actor.destroy();
+        this.blur_actor = null;
+        this.background_opacity = null;
+        this.clip = null;
+    }
+};

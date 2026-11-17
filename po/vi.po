@@ -1,0 +1,1757 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the blur-my-shell@aunetx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: blur-my-shell@aunetx\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-29 16:39+0100\n"
+"PO-Revision-Date: 2026-11-10 01:51+0000\n"
+"Last-Translator: Huynh Tuan Dung "
+"<itslouisanderson@users.noreply.hosted.weblate.org>\n"
+"Language-Team: Vietnamese <https://hosted.weblate.org/projects/blur-my-shell/"
+"blur-my-shell/vi/>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.11.2.dev0\n"
+
+#: src/effects/blur/info.js:7
+msgid "Dual Kawase blur"
+msgstr "Làm mờ kép Kawase"
+
+#: src/effects/blur/info.js:8
+msgid "A fast, high-quality blur."
+msgstr "Hiệu ứng làm mờ nhanh và chất lượng cao."
+
+#: src/effects/blur/info.js:11
+msgid "Radius"
+msgstr "Bán kính"
+
+#: src/effects/blur/info.js:12
+msgid "The intensity of the blur effect."
+msgstr "Cường độ của hiệu ứng mờ."
+
+#: src/effects/blur/info.js:21 src/effects/wave/info.js:77
+msgid "Brightness"
+msgstr "Độ sáng"
+
+#: src/effects/blur/info.js:22
+msgid ""
+"The brightness of the blur effect, a high value might make the text harder "
+"to read."
+msgstr "Độ sáng của hiệu ứng mờ, giá trị cao có thể khiến chữ khó đọc hơn."
+
+#: src/effects/color/info.js:10 src/effects/color/info.js:15
+#: src/effects/color/info.js:41 src/effects/effect_groups.js:11
+msgid "Color"
+msgstr "Màu"
+
+#: src/effects/color/info.js:11
+msgid "An effect that blends a color into the pipeline."
+msgstr "Hiệu ứng hòa trộn màu vào trong pipeline."
+
+#: src/effects/color/info.js:16
+msgid ""
+"The color to blend in. The blending amount is controlled by the opacity of "
+"the color."
+msgstr "Màu để pha. Mức độ pha dược điều khiển bởi độ trong suốt của màu."
+
+#: src/effects/color/info.js:21
+msgid "Blend mode"
+msgstr "Chế độ pha màu"
+
+#: src/effects/color/info.js:22
+msgid "How the color is blended in."
+msgstr "Cách màu được pha."
+
+#: src/effects/color/info.js:25
+msgid "Normal"
+msgstr "Bình thường"
+
+#: src/effects/color/info.js:26
+msgid "Multiply"
+msgstr "Nhân lên"
+
+#: src/effects/color/info.js:27
+msgid "Screen"
+msgstr "Màn hình"
+
+#: src/effects/color/info.js:28
+msgid "Overlay"
+msgstr "Phủ màu"
+
+#: src/effects/color/info.js:29
+msgid "Darken"
+msgstr "Làm tối"
+
+#: src/effects/color/info.js:30
+msgid "Lighten"
+msgstr "Làm sáng"
+
+#: src/effects/color/info.js:31
+msgid "Plus darker"
+msgstr "Làm tối cộng"
+
+#: src/effects/color/info.js:32
+msgid "Plus lighter"
+msgstr "Làm sáng cộng"
+
+#: src/effects/color/info.js:33
+msgid "Color dodge"
+msgstr "Giảm phơi sáng"
+
+#: src/effects/color/info.js:34
+msgid "Color burn"
+msgstr "Tăng phơi sáng"
+
+#: src/effects/color/info.js:35
+msgid "Hard light"
+msgstr "Ánh sáng mạnh"
+
+#: src/effects/color/info.js:36
+msgid "Soft light"
+msgstr "Ánh sáng nhẹ"
+
+#: src/effects/color/info.js:37
+msgid "Difference"
+msgstr "Khác biệt"
+
+#: src/effects/color/info.js:38
+msgid "Exclusion"
+msgstr "Loại trừ"
+
+#: src/effects/color/info.js:39
+msgid "Hue"
+msgstr "Sắc độ"
+
+#: src/effects/color/info.js:40 src/effects/color/info.js:93
+#: src/effects/wave/info.js:67
+msgid "Saturation"
+msgstr "Bão hoà"
+
+#: src/effects/color/info.js:42 src/effects/color/info.js:49
+msgid "Luminosity"
+msgstr "Tính sáng"
+
+#: src/effects/color/info.js:50
+msgid "An effect that affects the luminosity of the image."
+msgstr "Hiệu ứng ảnh hưởng đến tính sáng của hình ảnh."
+
+#: src/effects/color/info.js:53
+msgid "Shift brightness"
+msgstr "Chuyển dịch độ sáng"
+
+#: src/effects/color/info.js:54
+msgid "The brightness to add or remove from the image."
+msgstr "Thêm hoặc bớt độ sáng của hình ảnh."
+
+#: src/effects/color/info.js:63
+msgid "Brightness multiplier"
+msgstr "Nhân cấp độ sáng"
+
+#: src/effects/color/info.js:64
+msgid ""
+"Multiplies image brightness; 0 is black and 1 leaves brightness unchanged."
+msgstr ""
+"Nhân cấp độ sáng của hình ảnh; 0 là đen hoàn toàn và 1 không để lại thay đổi "
+"gì."
+
+#: src/effects/color/info.js:73
+msgid "Contrast"
+msgstr "Độ tương phản"
+
+#: src/effects/color/info.js:74
+msgid "Adjusts image contrast around the selected contrast center."
+msgstr ""
+"Hiệu chỉnh độ tương phản của hình ảnh qua giá trị điểm giữa tương phản được "
+"chọn."
+
+#: src/effects/color/info.js:83
+msgid "Contrast center"
+msgstr "Điểm giữa tương phản"
+
+#: src/effects/color/info.js:84
+msgid "The center of the contrast to use."
+msgstr "Điểm giữa tương phản để sử dụng."
+
+#: src/effects/color/info.js:94
+msgid ""
+"Multiplies image saturation; 0 removes all color and 1 leaves saturation "
+"unchanged."
+msgstr ""
+"Nhân độ bão hòa màu của hình ảnh; 0 bỏ toàn bộ màu và 1 không để lại thay "
+"đổi nào."
+
+#: src/effects/color/info.js:106
+msgid "RGB to HSL (advanced effect)"
+msgstr "Chuyển đổi RGB sang HSL (hiệu ứng nâng cao)"
+
+#: src/effects/color/info.js:107
+msgid "Converts the image from RGBA color space to HSLA."
+msgstr "Chuyển đổi hình ảnh từ không gian màu RGBA sang HSLA."
+
+#: src/effects/color/info.js:112
+msgid "HSL to RGB (advanced effect)"
+msgstr "Chuyển đổi HSL sang RGB (hiệu ứng nâng cao)"
+
+#: src/effects/color/info.js:113
+msgid "Converts the image from HSLA color space to RGBA."
+msgstr "Chuyển đổi hình ảnh từ không gian màu HSLA sang RGBA."
+
+#: src/effects/effect_groups.js:4 resources/ui/pages/applications.ui:12
+#: resources/ui/pages/shell/app-folders.ui:8
+#: resources/ui/pages/shell/component.ui:8 resources/ui/pages/shell/dash.ui:8
+#: resources/ui/pages/shell/overview.ui:8 resources/ui/pages/shell/panel.ui:8
+#: resources/ui/pages/shell/popup.ui:8
+msgid "Blur"
+msgstr "Làm mờ"
+
+#: src/effects/effect_groups.js:18
+msgid "Texture"
+msgstr "Hiệu ứng bề mặt"
+
+#: src/effects/effect_groups.js:27
+msgid "Advanced"
+msgstr "Nâng cao"
+
+#: src/effects/effect_groups.js:28
+msgid "Building blocks that are mostly useful combined with other effects."
+msgstr "Các thành phần cơ bản thường được dùng kết hợp với các hiệu ứng khác."
+
+#: src/effects/refraction/info.js:7
+msgid "Liquid Glass"
+msgstr "Liquid Glass (Kinh lỏng)"
+
+#: src/effects/refraction/info.js:8
+msgid ""
+"A glossy translucent material with edge refraction, rim lighting, tint, and "
+"inner shadow."
+msgstr ""
+"Một vật liệu trong suốt và bóng loáng với khúc xạ góc, làm sáng mép, phủ màu "
+"và đổ bóng bên trong vật liệu."
+
+#: src/effects/refraction/info.js:11
+msgid "Refraction scale"
+msgstr "Tỉ lệ khúc xạ"
+
+#: src/effects/refraction/info.js:12
+msgid "How strongly the glass bends the sampled blur texture."
+msgstr "Mức độ bẻ cong bề mặt làm mờ của kính."
+
+#: src/effects/refraction/info.js:21
+msgid "Blur radius"
+msgstr "Bán kính làm mờ"
+
+#: src/effects/refraction/info.js:22
+msgid "Blurs the sampled backdrop before the liquid-glass shader is applied."
+msgstr "Làm mờ nền trước khi shader liquid glass được áp dụng."
+
+#: src/effects/refraction/info.js:31
+msgid "Bezel width"
+msgstr "Độ dày viền"
+
+#: src/effects/refraction/info.js:32
+msgid "How far the liquid-glass lens reaches inward from the edge."
+msgstr "Mức độ cong vào của thấu kính Liquid Glass từ viền."
+
+#: src/effects/refraction/info.js:41
+msgid "Rim spread"
+msgstr ""
+
+#: src/effects/refraction/info.js:42
+msgid "How far the refraction eases inward from the glass edge."
+msgstr ""
+
+#: src/effects/refraction/info.js:51
+msgid "Glass thickness"
+msgstr "Độ dày lớp kính"
+
+#: src/effects/refraction/info.js:52
+msgid "Depth used by the refraction edge profile."
+msgstr ""
+
+#: src/effects/refraction/info.js:61
+msgid "Refraction style"
+msgstr "Kiểu khúc xạ"
+
+#: src/effects/refraction/info.js:62
+msgid ""
+"Shape of the bend near the edge. Low values bend softly, higher values bend "
+"more sharply right at the edge."
+msgstr ""
+"Mức độ bẻ cong ánh sáng gần cạnh. Giá trị càng cao thì ánh sáng gần cạnh bị "
+"bẻ cong càng nặng hơn và ngược lại."
+
+#: src/effects/refraction/info.js:71
+msgid "Fresnel glare"
+msgstr "Hiệu ứng lóa Fresnel"
+
+#: src/effects/refraction/info.js:72
+msgid "Strength of the directional fresnel glare from the glass edge."
+msgstr "Cường độ hiệu ứng ánh lóa Fresnel chiếu từ cạnh kính."
+
+#: src/effects/refraction/info.js:81
+msgid "Fresnel glare angle"
+msgstr "Góc ánh lóa Fresnel"
+
+#: src/effects/refraction/info.js:82
+msgid ""
+"Light direction of the fresnel glare, in degrees (0 is from above, positive "
+"rotates clockwise)."
+msgstr ""
+
+#: src/effects/refraction/info.js:91
+msgid "Fresnel glare width"
+msgstr "Chiều rộng ánh lóa Fresnel"
+
+#: src/effects/refraction/info.js:92
+msgid "Thickness multiplier of the fresnel glare ring along the glass edge."
+msgstr "Hệ số độ dày của vòng ánh sáng lóa Fresnel dọc cạnh kính."
+
+#: src/effects/refraction/info.js:101
+msgid "Specular glare strength"
+msgstr ""
+
+#: src/effects/refraction/info.js:102
+msgid ""
+"Strength of the specular glare showing the light direction (0 disables it)."
+msgstr ""
+
+#: src/effects/refraction/info.js:111
+msgid "Tint strength"
+msgstr ""
+
+#: src/effects/refraction/info.js:112
+msgid "Amount of subtle milky glass tint over the blurred texture."
+msgstr ""
+
+#: src/effects/refraction/info.js:121
+msgid "Tint color"
+msgstr ""
+
+#: src/effects/refraction/info.js:122
+msgid "Color blended over the blurred texture, weighted by the tint strength."
+msgstr ""
+
+#: src/effects/refraction/info.js:127
+msgid "Backdrop zoom"
+msgstr ""
+
+#: src/effects/refraction/info.js:128
+msgid "Zoom level of the backdrop visible through the glass."
+msgstr ""
+
+#: src/effects/refraction/info.js:137
+msgid "Inner shadow"
+msgstr "Đổ bóng trong"
+
+#: src/effects/refraction/info.js:138
+msgid "Darkens the lower and inner edge for a deeper glass surface."
+msgstr ""
+
+#: src/effects/refraction/info.js:147
+msgid "Chromatic dispersion"
+msgstr ""
+
+#: src/effects/refraction/info.js:148
+msgid "Physical per-channel refraction dispersion at the glass edge."
+msgstr ""
+
+#: src/effects/refraction/info.js:157
+msgid "Edge behavior"
+msgstr ""
+
+#: src/effects/refraction/info.js:158
+msgid "How texture coordinates outside the actor are sampled."
+msgstr ""
+
+#: src/effects/refraction/info.js:161
+msgid "Clamp"
+msgstr ""
+
+#: src/effects/refraction/info.js:162
+msgid "Mirror"
+msgstr ""
+
+#: src/effects/texture/info.js:11
+msgid "Pixelize"
+msgstr "Điểm ảnh (Pixel) hóa"
+
+#: src/effects/texture/info.js:12
+msgid "An effect that pixelizes the image."
+msgstr "Hiệu ứng pixel hoá hình ảnh."
+
+#: src/effects/texture/info.js:15 src/effects/texture/info.js:40
+#: src/effects/texture/info.js:65
+msgid "Factor"
+msgstr "Ước số"
+
+#: src/effects/texture/info.js:16 src/effects/texture/info.js:41
+msgid "How much to scale down the image."
+msgstr "Ước số cho việc giảm tỉ lệ hình ảnh đến bao nhiêu."
+
+#: src/effects/texture/info.js:23 src/effects/texture/info.js:48
+msgid "Downsampling mode"
+msgstr "Chế độ Downsampling (giảm kích thước)"
+
+#: src/effects/texture/info.js:24 src/effects/texture/info.js:49
+msgid "The downsampling method that is used."
+msgstr "Phương pháp Downsampling được sử dụng."
+
+#: src/effects/texture/info.js:27 src/effects/texture/info.js:52
+msgid "Boxcar"
+msgstr "Thuật toán trung bình cộng Boxcar"
+
+#: src/effects/texture/info.js:28 src/effects/texture/info.js:53
+msgid "Triangular"
+msgstr "Hàm cửa sổ tam giác (Triangular Window)"
+
+#: src/effects/texture/info.js:29 src/effects/texture/info.js:54
+msgid "Dirac"
+msgstr "Hàm xung Dirac (delta Dirac)"
+
+#: src/effects/texture/info.js:36
+msgid "Downscale (advanced effect)"
+msgstr "Giảm tỉ lệ (hiệu ứng nâng cao)"
+
+#: src/effects/texture/info.js:37
+msgid "An effect that downscales the image and puts it in the top-left corner."
+msgstr "Hiệu ứng giảm tỷ lệ của ảnh và đặt lên góc trên bên trái."
+
+#: src/effects/texture/info.js:61
+msgid "Upscale (advanced effect)"
+msgstr "Tăng tỉ lệ (hiệu ứng nâng cao)"
+
+#: src/effects/texture/info.js:62
+msgid "An effect that upscales the image from the top-left corner."
+msgstr "Hiệu ứng tăng tỉ lệ của ảnh từ góc trái trên cùng."
+
+#: src/effects/texture/info.js:66
+msgid "How much to scale up the image."
+msgstr "Hệ số tăng tỉ lệ của ảnh."
+
+#: src/effects/texture/info.js:76
+msgid "Derivative"
+msgstr "Đạo hàm"
+
+#: src/effects/texture/info.js:77
+msgid "Apply a spatial derivative, or a laplacian."
+msgstr "Áp dụng đạo hàm không gian, hoặc toán tử Laplace."
+
+#: src/effects/texture/info.js:80
+msgid "Operation"
+msgstr "Phép toán"
+
+#: src/effects/texture/info.js:81
+msgid "The mathematical operation to apply."
+msgstr "Phép toán được áp dụng."
+
+#: src/effects/texture/info.js:84
+msgid "1-step derivative"
+msgstr "Đạo hàm bậc 1"
+
+#: src/effects/texture/info.js:85
+msgid "2-step derivative"
+msgstr "Đạo hàm bậc 2"
+
+#: src/effects/texture/info.js:86
+msgid "Laplacian"
+msgstr "Toán tử Laplace"
+
+#: src/effects/texture/info.js:93 src/effects/texture/info.js:97
+msgid "Noise"
+msgstr "Nhiễu"
+
+#: src/effects/texture/info.js:94
+msgid "An effect that adds random grain to the image."
+msgstr "Hiệu ứng thêm các hạt nhiễu ngẫu nhiên lên ảnh."
+
+#: src/effects/texture/info.js:98
+msgid "The amount of noise to add."
+msgstr "Lượng tiếng ồn (nhiễu) để thêm vào."
+
+#: src/effects/texture/info.js:107
+msgid "Lightness"
+msgstr "Độ sáng (của màu)"
+
+#: src/effects/texture/info.js:108
+msgid ""
+"The luminosity of the noise. A setting of '1.0' will make the effect "
+"transparent."
+msgstr ""
+"Độ sáng của tiếng ồn (nhiễu). Giá trị 1.0 sẽ làm cho hiệu ứng trở nên trong "
+"suốt."
+
+#: src/effects/wave/info.js:7
+msgid "Vapor Wave"
+msgstr ""
+
+#: src/effects/wave/info.js:8
+msgid ""
+"A flowing wave displacement for a lively and dynamic feel with natural "
+"movement."
+msgstr ""
+
+#: src/effects/wave/info.js:11
+msgid "Wave frequency"
+msgstr ""
+
+#: src/effects/wave/info.js:12
+msgid "How tightly packed the ripples are."
+msgstr ""
+
+#: src/effects/wave/info.js:21
+msgid "Wave amplitude"
+msgstr ""
+
+#: src/effects/wave/info.js:22
+msgid "How strongly the image gets displaced by the waves."
+msgstr ""
+
+#: src/effects/wave/info.js:31
+msgid "Wave octaves"
+msgstr ""
+
+#: src/effects/wave/info.js:32
+msgid ""
+"Detail level of the wave shape. Higher adds more detail at the cost of "
+"performance."
+msgstr ""
+
+#: src/effects/wave/info.js:39
+msgid "Vapor octaves"
+msgstr ""
+
+#: src/effects/wave/info.js:40
+msgid ""
+"Detail level of the misty texture. Higher adds more detail at the cost of "
+"performance."
+msgstr ""
+
+#: src/effects/wave/info.js:47
+msgid "Vapor speed"
+msgstr ""
+
+#: src/effects/wave/info.js:48
+msgid "How quickly the misty vapor texture drifts over time."
+msgstr ""
+
+#: src/effects/wave/info.js:57
+msgid "Texture grain"
+msgstr ""
+
+#: src/effects/wave/info.js:58
+msgid "Adds a fine sandblasted texture to the image."
+msgstr ""
+
+#: src/effects/wave/info.js:68
+msgid "The saturation of the effect."
+msgstr "Độ tương phản của hiệu ứng."
+
+#: src/effects/wave/info.js:78
+msgid "The brightness of the effect."
+msgstr "Độ sáng của hiệu ứng."
+
+#: src/effects/wave/info.js:87
+msgid "Zoom"
+msgstr "Phóng to"
+
+#: src/effects/wave/info.js:88
+msgid "Magnifies the backdrop toward the surface's center."
+msgstr ""
+
+#: src/effects/wave/info.js:97
+msgid "Dispersion"
+msgstr ""
+
+#: src/effects/wave/info.js:98
+msgid "Chromatic aberration strength for a glitchy feel."
+msgstr ""
+
+#: src/effects/wave/info.js:107
+msgid "Enable flow animation"
+msgstr ""
+
+#: src/effects/wave/info.js:108
+msgid "Whether the wave noise continuously flows over time."
+msgstr ""
+
+#: src/effects/wave/info.js:112
+msgid "Flow animation speed"
+msgstr ""
+
+#: src/effects/wave/info.js:113
+msgid "The base speed at which the wave pattern flows."
+msgstr ""
+
+#: src/effects/wave/info.js:122
+msgid "Resize ease duration"
+msgstr ""
+
+#: src/effects/wave/info.js:123
+msgid ""
+"How long the effect takes to adjust when a window changes size "
+"(milliseconds)."
+msgstr ""
+
+#: resources/ui/menu.ui:6
+msgid "Debug Logging"
+msgstr "Nhật ký gỡ lỗi"
+
+#: resources/ui/menu.ui:10
+msgid "Disable on Power Saver"
+msgstr "Tắt khi bật chế độ Tiết kiệm năng lượng"
+
+#: resources/ui/menu.ui:14
+msgid "Reset Preferences…"
+msgstr "Đặt lại về cài đặt gốc…"
+
+#: resources/ui/menu.ui:20
+msgid "Project page"
+msgstr "Trang dự án"
+
+#: resources/ui/menu.ui:24
+msgid "Report a Bug"
+msgstr "Báo cáo một Lỗi"
+
+#: resources/ui/menu.ui:28
+msgid "License"
+msgstr "Giấy phép"
+
+#: resources/ui/menu.ui:38
+msgid "Main Menu"
+msgstr "Menu chính"
+
+#: resources/ui/pages/applications.ui:5
+#: src/preferences/pages/pipelines/components.js:16
+msgid "Applications"
+msgstr "Các ứng dụng"
+
+#: resources/ui/pages/applications.ui:36
+#: resources/ui/pages/shell/overview.ui:26 resources/ui/pages/shell/panel.ui:39
+msgid "Appearance"
+msgstr "Giao diện"
+
+#: resources/ui/pages/applications.ui:41
+msgid "Opacity"
+msgstr "Độ mờ"
+
+#: resources/ui/pages/applications.ui:42
+msgid "Higher values are easier to read"
+msgstr "Đặt giá trị càng cao thì càng dễ đọc"
+
+#: resources/ui/pages/applications.ui:62
+msgid "Opaque focused window"
+msgstr "Cửa sổ đục mờ đang tập trung"
+
+#: resources/ui/pages/applications.ui:68 resources/ui/pages/shell/panel.ui:44
+#: resources/ui/pages/shell/popup.ui:61
+msgid "Corner radius"
+msgstr "Bán kính góc"
+
+#: resources/ui/pages/applications.ui:75 resources/ui/pages/shell/panel.ui:51
+#: resources/ui/pages/shell/popup.ui:66
+msgid "Rounded corners"
+msgstr "Bo tròn góc"
+
+#: resources/ui/pages/applications.ui:82
+msgid "Round maximized and fullscreen windows"
+msgstr "Bo tròn các cửa sổ đã phóng to hoặc ở chế độ toàn màn hình"
+
+#: resources/ui/pages/applications.ui:90
+msgid "Behavior"
+msgstr "Hành vi"
+
+#: resources/ui/pages/applications.ui:95
+msgid "Blur on overview"
+msgstr "Làm mờ màn hình Overview"
+
+#: resources/ui/pages/applications.ui:96
+msgid "Shows the blur on every workspace, at some performance cost"
+msgstr ""
+"Hiện hiệu ứng mờ trên mọi không gian làm việc, có thể ảnh hưởng đến hiệu năng"
+
+#: resources/ui/pages/applications.ui:102
+msgid "Unblur when Fullscreen"
+msgstr "Bỏ hiệu ứng mờ khi ở chế độ Toàn màn hình"
+
+#: resources/ui/pages/applications.ui:108
+msgid "Blur all windows"
+msgstr "Làm mờ tất cả cửa sổ"
+
+#: resources/ui/pages/applications.ui:109
+msgid "When off, only the windows listed below are blurred."
+msgstr "Khi tắt, chỉ có các cửa sổ liệt kê dưới đây mới được làm mờ."
+
+#: resources/ui/pages/applications.ui:117
+msgid "Blurred windows"
+msgstr "Cửa sổ được làm mờ"
+
+#: resources/ui/pages/applications.ui:118
+#: resources/ui/pages/applications.ui:140
+msgid ""
+"Use * to match any characters, like Firefox* or *Code*, and ? to match a "
+"single one."
+msgstr ""
+
+#: resources/ui/pages/applications.ui:126
+#: resources/ui/pages/applications.ui:148
+msgid "Add Window"
+msgstr "Thêm cửa sổ"
+
+#: resources/ui/pages/applications.ui:139
+msgid "Excluded windows"
+msgstr "Cửa sổ không áp dụng"
+
+#: resources/ui/pages/applications.ui:162 resources/ui/pages/shell/panel.ui:150
+#: resources/ui/pages/shell/popup.ui:160
+msgid "All"
+msgstr "Tất cả"
+
+#: resources/ui/pages/applications.ui:163 resources/ui/pages/shell/panel.ui:151
+#: resources/ui/pages/shell/popup.ui:161
+msgid "Top only"
+msgstr "Chỉ thanh trên"
+
+#: resources/ui/pages/applications.ui:164 resources/ui/pages/shell/panel.ui:152
+#: resources/ui/pages/shell/popup.ui:162
+msgid "Bottom only"
+msgstr "Chỉ thanh dưới"
+
+#: resources/ui/pages/applications.ui:165 resources/ui/pages/shell/panel.ui:153
+#: resources/ui/pages/shell/popup.ui:163
+msgid "None"
+msgstr "Không"
+
+#: resources/ui/pages/pipelines/pipeline-page.ui:11
+#: src/preferences/pages/pipelines/pipeline_row.js:61
+msgid "Pipeline Menu"
+msgstr "Menu pipeline"
+
+#: resources/ui/pages/pipelines/pipeline-page.ui:24
+msgid "Name"
+msgstr "Tên"
+
+#: resources/ui/pages/pipelines/pipeline-page.ui:30
+msgid "Pipeline ID"
+msgstr "ID pipeline"
+
+#: resources/ui/pages/pipelines/pipeline-page.ui:36
+msgid "Copy"
+msgstr "Sao chép"
+
+#: resources/ui/pages/pipelines/pipeline-page.ui:49
+msgid "Effects"
+msgstr "Hiệu ứng"
+
+#: resources/ui/pages/pipelines/pipeline-page.ui:56
+#: src/preferences/pages/pipelines/effect_chooser.js:13
+msgid "Add Effect"
+msgstr "Thêm hiệu ứng"
+
+#: resources/ui/pages/pipelines/pipeline-page.ui:73
+#: src/preferences/pages/pipelines/pipeline_row.js:75
+msgid "No effects yet"
+msgstr "Chưa có hiệu ứng nào"
+
+#: resources/ui/pages/pipelines/pipeline-page.ui:94
+#: src/preferences/pages/pipelines/pipeline_row.js:42
+msgid "Duplicate"
+msgstr "Nhân bản"
+
+#: resources/ui/pages/pipelines/pipeline-page.ui:98
+#: src/preferences/pages/pipelines/index.js:122
+#: src/preferences/pages/pipelines/pipeline_row.js:43
+msgid "Delete"
+msgstr "Xóa"
+
+#: resources/ui/pages/pipelines/pipelines.ui:5
+msgid "Pipelines"
+msgstr "Chuỗi pipeline"
+
+#: resources/ui/pages/pipelines/pipelines.ui:10
+msgid "Pipelines are sets of effects that components share."
+msgstr ""
+"Pipeline là một tập hợp các hiệu ứng mà các thành phần có thể sử dụng chung."
+
+#: resources/ui/pages/pipelines/pipelines.ui:17
+msgid "New Pipeline"
+msgstr "Pipeline mới"
+
+#: resources/ui/pages/shell/app-folders.ui:24
+msgid "Application folder dialogs style"
+msgstr "Kiểu của hộp thoại thư mục ứng dụng"
+
+#: resources/ui/pages/shell/app-folders.ui:35
+#: resources/ui/pages/shell/overview.ui:55
+msgid "Do not style"
+msgstr "Không tạo kiểu"
+
+#: resources/ui/pages/shell/app-folders.ui:36
+#: resources/ui/pages/shell/dash.ui:61 resources/ui/pages/shell/overview.ui:58
+#: resources/ui/pages/shell/panel.ui:159 resources/ui/pages/shell/popup.ui:169
+msgid "Transparent"
+msgstr "Trong suốt"
+
+#: resources/ui/pages/shell/app-folders.ui:37
+#: resources/ui/pages/shell/dash.ui:62 resources/ui/pages/shell/overview.ui:56
+#: resources/ui/pages/shell/panel.ui:160 resources/ui/pages/shell/popup.ui:170
+msgid "Light"
+msgstr "Sáng"
+
+#: resources/ui/pages/shell/app-folders.ui:38
+#: resources/ui/pages/shell/dash.ui:63 resources/ui/pages/shell/overview.ui:57
+#: resources/ui/pages/shell/panel.ui:161 resources/ui/pages/shell/popup.ui:171
+msgid "Dark"
+msgstr "Tối"
+
+#: resources/ui/pages/shell/app-folders.ui:39
+#: resources/ui/pages/shell/dash.ui:64 resources/ui/pages/shell/overview.ui:59
+#: resources/ui/pages/shell/panel.ui:163 resources/ui/pages/shell/popup.ui:172
+msgid "Automatic"
+msgstr "Tự động"
+
+#: resources/ui/pages/shell/dash.ui:30 resources/ui/pages/shell/panel.ui:30
+msgid "Disable in overview"
+msgstr "Tắt ở Overview"
+
+#: resources/ui/pages/shell/dash.ui:39 resources/ui/pages/shell/panel.ui:73
+#: resources/ui/pages/shell/popup.ui:32 resources/ui/pages/shell/shell.ui:51
+msgid "Background"
+msgstr "Nền"
+
+#: resources/ui/pages/shell/dash.ui:44 resources/ui/pages/shell/panel.ui:78
+#: resources/ui/pages/shell/popup.ui:37
+msgid "Override background"
+msgstr "Ghi đề nền"
+
+#: resources/ui/pages/shell/dash.ui:50 resources/ui/pages/shell/panel.ui:84
+#: resources/ui/pages/shell/popup.ui:43
+msgid "Background style"
+msgstr "Kiểu nền"
+
+#: resources/ui/pages/shell/overview.ui:31
+msgid "Overview components style"
+msgstr "Tổng quan kiểu của các thành phần"
+
+#: resources/ui/pages/shell/overview.ui:32
+msgid "For the dash, search and app folders"
+msgstr "Áp dụng cho màn hình dash, tìm kiếm và các thư mục ứng dụng"
+
+#: resources/ui/pages/shell/overview.ui:39
+msgid "Workspace corner radius"
+msgstr "Bán kính góc không gian làm việc"
+
+#: resources/ui/pages/shell/panel.ui:58
+msgid "Force light text"
+msgstr "Bắt buộc chữ màu sáng"
+
+#: resources/ui/pages/shell/panel.ui:59
+msgid "Useful with a light shell theme"
+msgstr "Hữu dụng khi dùng chủ đề sáng"
+
+#: resources/ui/pages/shell/panel.ui:65
+msgid "Match theme in overview"
+msgstr "Khớp chủ đề với màn Tổng quan"
+
+#: resources/ui/pages/shell/panel.ui:92
+msgid "Override background dynamically"
+msgstr "Ghi đè động nền"
+
+#: resources/ui/pages/shell/panel.ui:93
+msgid "Changes the background when a window is near the panel"
+msgstr "Thay đổi nền khi có cửa sổ ở gần thanh panel"
+
+#: resources/ui/pages/shell/panel.ui:100
+msgid "When a window is near"
+msgstr "Khi có cửa sổ ở gần"
+
+#: resources/ui/pages/shell/panel.ui:101
+msgid ""
+"Blur on Window Proximity: Blur only when a window is near the panel and "
+"transparent when it is not.\n"
+"Background on Window Proximity: Solid color background when a window is near "
+"the panel and blur when it is not."
+msgstr ""
+"Làm mờ khi cửa sổ ở gần: Chỉ làm mở khi có cửa số gần thanh panel, không có "
+"thì để nền trong suốt.\n"
+"Đổi màu nền khi cửa sổ ở gần: Đổi thành màu nền đơn khi có cửa sổ gần thanh "
+"panel, không có thì làm mờ."
+
+#: resources/ui/pages/shell/panel.ui:110
+msgid "Gradient background"
+msgstr "Nền gradient"
+
+#: resources/ui/pages/shell/panel.ui:117
+msgid "Gradient direction"
+msgstr "Chiều của gradient"
+
+#: resources/ui/pages/shell/panel.ui:127
+msgid "Compatibility"
+msgstr "Độ tương thích"
+
+#: resources/ui/pages/shell/panel.ui:132
+msgid "Hidetopbar extension"
+msgstr "Extension Hidetopbar"
+
+#: resources/ui/pages/shell/panel.ui:133
+msgid "Keeps the blur visible in the overview, best with static blur"
+msgstr ""
+"Giữ hiệu ứng mờ trong màn Tổng quan, tốt nhất khi dùng cùng hiệu ứng làm mờ "
+"tĩnh"
+
+#: resources/ui/pages/shell/panel.ui:140
+msgid "Blur original panel with Dash to Panel"
+msgstr "Làm mờ thanh panel gốc với Dash to Panel"
+
+#: resources/ui/pages/shell/panel.ui:141
+msgid "When Dash to Panel keeps the original panel"
+msgstr "Khi Dash to Panel giữ lại thanh panel gốc"
+
+#: resources/ui/pages/shell/panel.ui:162
+msgid "Contrasted"
+msgstr "Tương phản"
+
+#: resources/ui/pages/shell/panel.ui:169
+msgid "Blur on Window Proximity"
+msgstr "Làm mờ khi cửa sổ ở gần"
+
+#: resources/ui/pages/shell/panel.ui:170
+msgid "Background on Window Proximity"
+msgstr "Đổi màu nền khi cửa sổ ở gần"
+
+#: resources/ui/pages/shell/panel.ui:176
+msgid "Top"
+msgstr "Trên"
+
+#: resources/ui/pages/shell/panel.ui:177
+msgid "Bottom"
+msgstr "Dưới"
+
+#: resources/ui/pages/shell/popup.ui:51
+msgid "Preserve shell theme"
+msgstr "Giữ chủ đề shell"
+
+#: resources/ui/pages/shell/popup.ui:52
+msgid "Keep your shell theme's colors for popup controls."
+msgstr ""
+"Giữ nguyên màu nền gốc theo chủ đề shell cho các nút điều khiển trong popup."
+
+#: resources/ui/pages/shell/popup.ui:73
+msgid "Menus"
+msgstr "Menu"
+
+#: resources/ui/pages/shell/popup.ui:80
+msgid "Input method candidates"
+msgstr "Menu chọn bộ gõ"
+
+#: resources/ui/pages/shell/popup.ui:87
+msgid "Quick settings"
+msgstr "Cài đặt nhanh"
+
+#: resources/ui/pages/shell/popup.ui:94
+msgid "Quick settings submenus"
+msgstr "Menu con trong Cài đặt nhanh"
+
+#: resources/ui/pages/shell/popup.ui:101
+msgid "Calendar and notification center"
+msgstr "Lịch và trung tâm thông báo"
+
+#: resources/ui/pages/shell/popup.ui:108
+msgid "Notifications"
+msgstr "Thông báo"
+
+#: resources/ui/pages/shell/popup.ui:115
+msgid "Window and workspace switchers"
+msgstr "Trình chuyển cửa sổ và không gian làm việc"
+
+#: resources/ui/pages/shell/popup.ui:122
+msgid "Volume and brightness"
+msgstr "Âm lượng và độ sáng màn hình"
+
+#: resources/ui/pages/shell/popup.ui:129
+msgid "Window resize hints"
+msgstr "Gợi ý thay đổi kích thước cửa sổ"
+
+#: resources/ui/pages/shell/popup.ui:136
+msgid "Dialogs"
+msgstr "Hộp thoại"
+
+#: resources/ui/pages/shell/popup.ui:143
+msgid "On-screen keyboard"
+msgstr "Bàn phím trên màn hình"
+
+#: resources/ui/pages/shell/popup.ui:150
+msgid "Other popup surfaces"
+msgstr "Các ô popup khác"
+
+#: resources/ui/pages/shell/shell.ui:5
+msgid "Shell"
+msgstr "Shell"
+
+#: resources/ui/pages/shell/shell.ui:16
+msgid "Desktop"
+msgstr "Bàn làm việc"
+
+#: resources/ui/pages/shell/shell.ui:21
+#: src/preferences/pages/pipelines/components.js:7
+msgid "Panel"
+msgstr "Thanh panel"
+
+#: resources/ui/pages/shell/shell.ui:22
+msgid "The top bar, or the panels from Dash to Panel"
+msgstr "Thanh trên, hoặc các thanh panel từ Dash to Panel"
+
+#: resources/ui/pages/shell/shell.ui:29
+#: src/preferences/pages/pipelines/components.js:8
+msgid "Dock"
+msgstr "Thanh dock"
+
+#: resources/ui/pages/shell/shell.ui:30
+msgid "Dash to Dock, Ubuntu Dock, Dhruva and similar docks"
+msgstr "Dash to Dock, Ubuntu Dock, Dhruva và các thanh dock tương tự"
+
+#: resources/ui/pages/shell/shell.ui:37
+#: src/preferences/pages/pipelines/components.js:9
+msgid "Popups"
+msgstr "Popup"
+
+#: resources/ui/pages/shell/shell.ui:38
+msgid "Menus, quick settings, notifications and dialogs"
+msgstr "Menu, cài đặt nhanh, thông báo và hộp thoại"
+
+#: resources/ui/pages/shell/shell.ui:46
+#: src/preferences/pages/pipelines/components.js:10
+msgid "Overview"
+msgstr "Tổng quan"
+
+#: resources/ui/pages/shell/shell.ui:52
+msgid "The wallpaper behind the workspaces"
+msgstr "Hình nền phía sau các không gian làm việc"
+
+#: resources/ui/pages/shell/shell.ui:59
+#: src/preferences/pages/pipelines/components.js:11
+msgid "App folders"
+msgstr "Thư mục ứng dụng"
+
+#: resources/ui/pages/shell/shell.ui:60
+msgid "Folders opened from the app grid"
+msgstr "Các thư mục mở từ màn hình Ứng dụng"
+
+#: resources/ui/pages/shell/shell.ui:68
+msgid "System"
+msgstr "Hệ thống"
+
+#: resources/ui/pages/shell/shell.ui:73
+#: src/preferences/pages/pipelines/components.js:12
+msgid "Lock screen"
+msgstr "Màn hình khóa"
+
+#: resources/ui/pages/shell/shell.ui:74
+msgid "Behind the password prompt"
+msgstr "Áp dụng cho nền phía sau ô nhập mật khẩu"
+
+#: resources/ui/pages/shell/shell.ui:81
+#: src/preferences/pages/pipelines/components.js:13
+msgid "Screenshot"
+msgstr "Chụp màn hình"
+
+#: resources/ui/pages/shell/shell.ui:82
+msgid "Behind the window selector"
+msgstr "Áp dụng cho nền phía sau trình chọn cửa sổ"
+
+#: resources/ui/pages/shell/shell.ui:90
+msgid "Extensions"
+msgstr "Phần mở rộng"
+
+#: resources/ui/pages/shell/shell.ui:95
+#: src/preferences/pages/pipelines/components.js:14
+msgid "Window List"
+msgstr "Window List"
+
+#: resources/ui/pages/shell/shell.ui:96
+msgid "The taskbar from the Window List extension"
+msgstr "Thanh tác vụ từ phần mở rộng Window List"
+
+#: resources/ui/pages/shell/shell.ui:103
+#: src/preferences/pages/pipelines/components.js:15
+msgid "Coverflow Alt-Tab"
+msgstr "Coverflow Alt-Tab"
+
+#: resources/ui/pages/shell/shell.ui:104
+msgid "Behind the window switcher"
+msgstr "Áp dụng cho nền phía sau trình chọn cửa sổ"
+
+#: resources/ui/widgets/application-row.ui:4
+msgid "Window class"
+msgstr ""
+
+#: resources/ui/widgets/application-row.ui:10
+msgid "Pick a Window"
+msgstr "Chọn một cửa sổ"
+
+#: resources/ui/widgets/application-row.ui:21
+#: src/preferences/widgets/effect_row.js:17
+msgid "Remove"
+msgstr "Xóa"
+
+#: resources/ui/widgets/application-row.ui:30
+msgid "Window selection failed. Make sure the extension is enabled."
+msgstr "Không thể chọn cửa sổ. Hãy đảm bảo đã bật phần mở rộng."
+
+#: resources/ui/widgets/application-row.ui:34
+msgid "The selected actor is not a window."
+msgstr "Tác nhân đã chọn không phải là cửa sổ."
+
+#: resources/ui/widgets/blur-mode-row.ui:4
+msgid "Blur type"
+msgstr "Loại hiệu ứng mờ"
+
+#: resources/ui/widgets/blur-mode-row.ui:5
+msgid "Static blurs only the wallpaper"
+msgstr "Loại Tĩnh chỉ làm mờ hình nền"
+
+#: resources/ui/widgets/blur-mode-row.ui:23
+msgid "Static"
+msgstr "Tĩnh"
+
+#: resources/ui/widgets/blur-mode-row.ui:35
+msgid "Dynamic"
+msgstr "Động"
+
+#: resources/ui/widgets/pipeline-choose-row.ui:4
+#: src/preferences/pages/pipelines/pipeline_page.js:82
+#: src/preferences/pages/pipelines/pipeline_row.js:69
+msgid "Pipeline"
+msgstr "Chuỗi pipeline"
+
+#: src/preferences/legacy_blur_notice.js:26
+msgid "Rounded-blur is no longer needed"
+msgstr "Rounded-blur không còn bắt buộc"
+
+#: src/preferences/legacy_blur_notice.js:27
+msgid ""
+"Blur my Shell handles rounded corners directly. You can remove the old "
+"library if nothing else uses it."
+msgstr ""
+"Blur my Shell nay có thể xử lý trực tiếp các góc bo tròn. Bạn có thể xóa bỏ "
+"thư viện cũ nếu không còn cần dùng tới."
+
+#: src/preferences/legacy_blur_notice.js:31
+msgid "Removal instructions"
+msgstr "Hướng dẫn xóa"
+
+#: src/preferences/legacy_blur_notice.js:37
+#: src/preferences/legacy_blur_notice.js:43
+msgid "Dismiss"
+msgstr "Bỏ qua"
+
+#: src/preferences/legacy_blur_notice.js:58
+msgid "Removing the old blur library"
+msgstr "Xóa thư viện làm mờ cũ"
+
+#: src/preferences/legacy_blur_notice.js:60
+msgid ""
+"Removal is optional. Keep the library if another extension still needs it."
+msgstr ""
+"Việc xóa bỏ là không bắt buộc. Hãy giữ lại thư viện nếu có một phần mở rộng "
+"khác đang cần sử dụng nó."
+
+#: src/preferences/legacy_blur_notice.js:61
+msgid ""
+"Installed through a package manager? Remove the gnome-rounded-blur package "
+"with the same package manager. Review its proposed changes before confirming."
+msgstr ""
+"Bạn đã cài đặt thư viện thông qua một trình quản lý gói? Hãy gỡ bỏ gói gnome-"
+"rounded-blur bằng trình quản lý gói đó. Xem lại các thay đổi được đề xuất "
+"trước khi xác nhận."
+
+#: src/preferences/legacy_blur_notice.js:62
+msgid ""
+"Installed with the old Blur my Shell helper? The instructions explain how to "
+"run its uninstaller."
+msgstr ""
+"Bạn đã cài đặt thư viện bằng công cụ hỗ trợ cũ của Blur my Shell? Hãy mở bản "
+"hướng dẫn để biết cách chạy công cụ gỡ bỏ."
+
+#: src/preferences/legacy_blur_notice.js:63
+msgid ""
+"Built from source? Use “sudo ninja -C build uninstall” from the original "
+"build directory, or follow its install log. Do not use the helper to remove "
+"a package-managed installation."
+msgstr ""
+"Bạn đã cài đặt bằng cách biên dịch từ mã nguồn? Hãy chạy lệnh “sudo ninja -C "
+"build uninstall” từ thư mục biên dịch gốc, hoặc lần theo nhật ký cài đặt. "
+"Đừng dùng công cụ này để gỡ bỏ bản cài đặt qua một trình quản lý gói."
+
+#: src/preferences/legacy_blur_notice.js:64
+msgid ""
+"Log out and back in after removal. Blur my Shell will not uninstall anything "
+"for you."
+msgstr ""
+"Sau khi gỡ bỏ, hãy đăng xuất và đăng nhập lại. Blur my Shell sẽ không gỡ bỏ "
+"bất cứ thứ gì cho bạn."
+
+#: src/preferences/legacy_blur_notice.js:69
+msgid "Close"
+msgstr "Đóng"
+
+#: src/preferences/legacy_blur_notice.js:70
+msgid "Open instructions"
+msgstr "Mở hướng dẫn"
+
+#: src/preferences/menu.js:76
+msgid "Reset all preferences?"
+msgstr "Đặt lại tất cả cài đặt?"
+
+#: src/preferences/menu.js:77
+msgid "Pipelines and component settings will return to their defaults."
+msgstr "Các pipeline và cài đặt thành phần sẽ trở về giá trị mặc định."
+
+#: src/preferences/menu.js:79 src/preferences/pages/pipelines/index.js:121
+msgid "Cancel"
+msgstr "Hủy"
+
+#: src/preferences/menu.js:80
+msgid "Reset"
+msgstr "Cài đặt lại"
+
+#: src/preferences/pages/pipelines/index.js:78
+msgid "New pipeline"
+msgstr "Pipeline mới"
+
+#: src/preferences/pages/pipelines/index.js:116
+#, javascript-format
+msgid "Delete “%s”?"
+msgstr "Xóa “%s”?"
+
+#: src/preferences/pages/pipelines/index.js:117
+msgid "Delete this pipeline?"
+msgstr "Xóa pipeline này?"
+
+#: src/preferences/pages/pipelines/index.js:118
+#, javascript-format
+msgid "It is used by %s, which will switch to the default pipeline."
+msgstr ""
+
+#: src/preferences/pages/pipelines/index.js:147
+#, javascript-format
+msgid "\"%s\" deleted"
+msgstr "Đã xóa \"%s\""
+
+#: src/preferences/pages/pipelines/index.js:148
+msgid "Pipeline deleted"
+msgstr "Đã xóa pipeline"
+
+#: src/preferences/pages/pipelines/index.js:151
+msgid "Undo"
+msgstr "Hoàn tác"
+
+#: src/preferences/pages/pipelines/pipeline_row.js:74
+msgid "Unknown effect"
+msgstr "Hiệu ứng không xác định"
+
+#: src/preferences/widgets/effect_row.js:14
+msgid "Move Up"
+msgstr "Di chuyển lên"
+
+#: src/preferences/widgets/effect_row.js:15
+msgid "Move Down"
+msgstr "Di chuyển xuống"
+
+#: src/preferences/widgets/effect_row.js:47
+msgid "Effect Menu"
+msgstr "Menu hiệu ứng"
+
+#: src/preferences/widgets/pipeline_choose_row.js:28
+msgid "Create new pipeline"
+msgstr "Tạo pipeline mới"
+
+#~ msgid ""
+#~ "Makes the focused window opaque and the other ones blurred, helping with "
+#~ "legibility."
+#~ msgstr ""
+#~ "Làm cho cửa sổ đang được tập trung có đục mờ và các cửa sổ khác mờ, giúp "
+#~ "cải thiện khả năng đọc."
+
+#~ msgid ""
+#~ "Forces the blur to be properly shown on all workspaces on overview.\n"
+#~ "This may cause some latency or performance issues."
+#~ msgstr ""
+#~ "Buộc hiệu ứng mờ được hiển thị rõ ràng trên tất cả các không gian làm "
+#~ "việc trong Overview.\n"
+#~ "Nó có thể tạo vấn đề hiệu năng."
+
+#~ msgid ""
+#~ "Enables the blurring of the original panel with Dash to Panel, if "
+#~ "selected in the extension's options."
+#~ msgstr ""
+#~ "Làm mờ panel gốc bằng Dash to Panel, nếu được chọn trong tùy chọn của "
+#~ "extension."
+
+#~ msgid ""
+#~ "The opacity of the window on top of the blur effect, a higher value will "
+#~ "be more legible."
+#~ msgstr ""
+#~ "Độ mờ của cửa sổ trên hiệu ứng làm mờ, giá trị cao hơn sẽ dễ dàng đọc hơn."
+
+#~ msgid "Makes the background of application folder dialogs blurred."
+#~ msgstr "Khiến nền của các thư mục ứng dụng bị mờ đi."
+
+#~ msgid "The semi-transparent style for the application folder dialogs."
+#~ msgstr "Kiểu bán trong suốt cho các hộp thoại thư mục ứng dụng."
+
+#~ msgid "The transparent/semi-transparent style for the dock background."
+#~ msgstr "Kiểu trong suốt/nửa trong suốt cho nền dock."
+
+#~ msgid "Add blur to the overview background, using the wallpaper picture."
+#~ msgstr "Thêm hiệu ứng mờ vào phần nền màn hình Overview, sử dụng ảnh nền."
+
+#~ msgid ""
+#~ "The semi-transparent style for the dash, search entry/results, and "
+#~ "application folders."
+#~ msgstr ""
+#~ "Kiểu bán trong suốt cho dash, thanh tìm kiếm/kết quả, và các thư mục ứng "
+#~ "dụng."
+
+#~ msgid "Disables the blur from the panel when entering the overview."
+#~ msgstr "Không làm mờ thanh panel khi vào chế độ xem tổng quan."
+
+#~ msgid ""
+#~ "Use a light text for the panel, useful when using gnome-shell's light "
+#~ "theme."
+#~ msgstr ""
+#~ "Dùng chữ màu sáng cho thanh panel, hữu ích khi sử dụng gnome-shell với "
+#~ "light theme."
+
+#~ msgid ""
+#~ "Override the background of the panel to use a transparent or semi-"
+#~ "transparent one.\n"
+#~ "Recommended unless you want to customize your GNOME theme."
+#~ msgstr ""
+#~ "Ghi đè nền của thanh panel để sử dụng nền trong suốt hoặc bán trong "
+#~ "suốt.\n"
+#~ "Được khuyên dùng trừ khi bạn muốn tùy chỉnh chủ đề GNOME của mình."
+
+#~ msgid "The transparent/semi-transparent style for the panel background."
+#~ msgstr "Kiểu trong suốt/bán trong suốt cho nền thanh panel."
+
+#~ msgid "Various options to provide compatibility with other extensions."
+#~ msgstr "Nhiều tùy chọn để tương thích với các extension khác."
+
+#~ msgid "The pipeline to be used with this component."
+#~ msgstr "Chuỗi pipeline được sử dụng cho thành phần này."
+
+#~ msgid ""
+#~ "Change the blur of the lockscreen to use this extension's preferences."
+#~ msgstr "Chỉnh độ mờ của màn hình khóa sang dùng cài đặt của extension này."
+
+#~ msgid ""
+#~ "Add blur to the background of the window selector in the screenshot UI."
+#~ msgstr "Làm mờ hình nền của phần chọn cửa sổ trong giao diện chụp màn hình."
+
+#~ msgid "Make the window-list extension blurred, if it is used."
+#~ msgstr "Làm mờ cho danh sách cửa sổ extension, nếu được sử dụng."
+
+#~ msgid "Make the coverflow alt-tab extension blurred, if it is used."
+#~ msgstr "Làm mờ extension coverflow alt-tab, nếu được sử dụng."
+
+#~ msgid "Donate"
+#~ msgstr "Ủng hộ"
+
+#~ msgid "Blur effects"
+#~ msgstr "Hiệu ứng làm mờ"
+
+#~ msgid "Texture effects"
+#~ msgstr "Hiệu ứng kết cấu"
+
+#~ msgid "Window Name"
+#~ msgstr "Tên cửa sổ"
+
+#~ msgid "Select window"
+#~ msgstr "Chọn cửa sổ"
+
+#~ msgid "Pick a window or select it by its classname."
+#~ msgstr "Chọn một cửa sổ qua nháy chuột hoặc bằng tên class của nó."
+
+#~ msgid "Applications blur"
+#~ msgstr "Làm mờ cho các ứng dụng"
+
+#~ msgid "Enable all by default"
+#~ msgstr "Bật tất cả theo mặc định"
+
+#~ msgid "Adds blur behind all windows by default."
+#~ msgstr "Thêm hiệu ứng mờ sau tất cả các cửa sổ theo mặc định."
+
+#~ msgid "Whitelist"
+#~ msgstr "Danh sách trắng"
+
+#~ msgid "Blacklist"
+#~ msgstr "Danh sách đen"
+
+#~ msgid "Dash"
+#~ msgstr "Bảng dash"
+
+#~ msgid "Include advanced effects"
+#~ msgstr "Bao gồm các hiệu ứng nâng cao"
+
+#~ msgid "Other"
+#~ msgstr "Khác"
+
+#~ msgid "Lockscreen blur"
+#~ msgstr "Làm mờ màn hình khóa"
+
+#~ msgid "Screenshot blur"
+#~ msgstr "Làm mờ ảnh chụp màn hình"
+
+#~ msgid "Window list extension blur"
+#~ msgstr "Danh sách cửa sổ extension làm mờ"
+
+#~ msgid "Coverflow Alt-Tab extension blur"
+#~ msgstr "Extension làm mờ Coverflow Alt-Tab"
+
+#~ msgid "Debug"
+#~ msgstr "Gỡ lỗi"
+
+#~ msgid ""
+#~ "Makes the extension verbose in logs, activate when you need to report an "
+#~ "issue."
+#~ msgstr ""
+#~ "Khiến extension này hiện nhiều log hơn, bật lên nếu bạn cần báo cáo một "
+#~ "vấn đề nào đó."
+
+#~ msgid "Reset preferences"
+#~ msgstr "Đặt lại toàn bộ cài đặt"
+
+#~ msgid "Background blur"
+#~ msgstr "Làm mờ nền"
+
+#~ msgid "Application folder blur"
+#~ msgstr "Làm mờ thư mục ứng dụng"
+
+#~ msgid "Panel blur"
+#~ msgstr "Làm mờ thanh panel"
+
+#~ msgid "Pipeline name"
+#~ msgstr "Tên pipeline"
+
+#~ msgid "Manage effects"
+#~ msgstr "Quản lý hiệu ứng"
+
+#~ msgid ""
+#~ "Each component uses a pipeline, which can be chosen in the corresponding "
+#~ "tab. Here you can create, modify and delete the pipelines and their "
+#~ "effects."
+#~ msgstr ""
+#~ "Mỗi thành phần sử dụng một chuỗi pipeline được chọn theo tab tương ứng. "
+#~ "Tại đây bạn có thể tạo, chỉnh sửa và xóa các chuỗi pipeline và hiệu ứng "
+#~ "của chúng."
+
+#~ msgid "Add Pipeline"
+#~ msgstr "Thêm chuỗi pipeline"
+
+#~ msgid "Performance"
+#~ msgstr "Hiệu năng"
+
+#~ msgid "Various options to tweak the performance."
+#~ msgstr "Những tùy chọn khác nhau để tinh chỉnh phần hiệu năng."
+
+#~ msgid "Sigma"
+#~ msgstr "Độ sigma"
+
+#~ msgid "The intensity of the blur."
+#~ msgstr "Cường độ làm mờ."
+
+#~ msgid "Blur the top panel using the background image."
+#~ msgstr "Làm mờ thanh trên cùng nhờ hình nền."
+
+#~ msgid "Dash to Dock blur"
+#~ msgstr "Làm mờ Dash to Dock"
+
+#~ msgid "Blur the background of the Dash to Dock extension, if it is used."
+#~ msgstr "Làm mờ nền của extension Dash to Dock, nếu được sử dụng."
+
+#~ msgid ""
+#~ "Makes the background either transparent or semi-transparent, disable this "
+#~ "to use Dash to Dock preferences instead."
+#~ msgstr ""
+#~ "Làm cho nền trong suốt hoặc nửa trong suốt, tắt cái này để dùng cài đặt "
+#~ "của Dash to Dock thay vào đó."
+
+#~ msgid "Disables the blur from Dash to Dock when entering the overview."
+#~ msgstr "Tắt hiệu ứng mờ cho Dash to Dock khi mở Overview."
+
+#~ msgid ""
+#~ "The color to blend in. The blending amount is controled by the opacity of "
+#~ "the color."
+#~ msgstr ""
+#~ "Màu được dùng để hòa trộn. Lượng hòa trộn được điểu chỉnh bởi độ mờ đục "
+#~ "của màu."
+
+#~ msgid ""
+#~ "An effect that downscales the image and put it on the top-left corner."
+#~ msgstr ""
+#~ "Hiệu ứng giảm tỉ lệ độ phân giải của ảnh và đặt ảnh vào góc trái trên "
+#~ "cùng."
+
+#~ msgid "Converts the image from RGBA colorspace to HSLA."
+#~ msgstr "Chuyển đổi hình ảnh từ không gian màu RGBA sang HSLA."
+
+#~ msgid "Converts the image from HSLA colorspace to RGBA."
+#~ msgstr "Chuyển đổi hình ảnh từ không gian màu HSLA sang RGBA."
+
+#~ msgid "Resets preferences of Blur my Shell irreversibly."
+#~ msgstr "Đặt lại hoàn toàn các cài đặt cho Blur my Shell. Không thể đặt lại."
+
+#~ msgid "Does not disable the blur in overview, best used with static blur."
+#~ msgstr ""
+#~ "Không tắt tính năng làm mờ ở Overview, sử dụng tốt nhất với tính năng làm "
+#~ "mờ tĩnh."
+
+#~ msgid "Shape effects"
+#~ msgstr "Hiệu ứng hình dạng"
+
+#~ msgid "Native gaussian blur"
+#~ msgstr "Làm mờ Gaussian gốc"
+
+#~ msgid ""
+#~ "An optimized blur effect that smoothly blends pixels within a given "
+#~ "radius."
+#~ msgstr ""
+#~ "Hiệu ứng làm mờ tối ưu để làm mịn các điểm ảnh trong một bán kính nhất "
+#~ "định."
+
+#~ msgid "Gaussian blur (advanced effect)"
+#~ msgstr "Làm mờ Gaussian (hiệu ứng nâng cao)"
+
+#~ msgid ""
+#~ "A blur effect that smoothly blends pixels within a given radius. This "
+#~ "effect is more precise, but way less optimized."
+#~ msgstr ""
+#~ "HIệu ứng làm mờ giúp làm mịn các điểm ảnh trong một bán kính nhất định. "
+#~ "Hiệu ứng này có độ chính xác cao hơn, nhưng ít được tối ưu hơn."
+
+#~ msgid ""
+#~ "The intensity of the blur effect. The bigger it is, the slower it will be."
+#~ msgstr "Cường độ của hiệu ứng mờ. Hiệu ứng sẽ chậm hơn nếu lớn hơn."
+
+#~ msgid "Monte Carlo blur"
+#~ msgstr "Làm mờ Monte Carlo"
+
+#~ msgid ""
+#~ "A blur effect that mimics a random walk, by picking pixels further and "
+#~ "further away from its origin and mixing them all together."
+#~ msgstr ""
+#~ "Hiệu ứng làm mờ có mô phỏng chuyển động ngẫu nhiên bằng cách chọn điểm "
+#~ "ảnh càng xa hơn gốc của nó và hòa trộn chúng lại."
+
+#~ msgid ""
+#~ "The maximum travel distance for each step in the random walk. A higher "
+#~ "value will make the blur more randomized."
+#~ msgstr ""
+#~ "Khoảng cách di chuyển tối đa cho mỗi bước chuyển động ngẫu nhiên. Giá trị "
+#~ "càng cao sẽ khiến độ mờ thêm tính ngẫu nhiên."
+
+#~ msgid "Iterations"
+#~ msgstr "Số lần lặp lại"
+
+#~ msgid ""
+#~ "The number of iterations. The more there are, the smoother the blur is."
+#~ msgstr ""
+#~ "Giá trị của số lần lặp. Số lần lặp càng nhiều, hiệu ứng mờ càng mượt."
+
+#~ msgid "Use base pixel"
+#~ msgstr "Dùng điểm ảnh gốc"
+
+#~ msgid ""
+#~ "Whether or not the original pixel is counted for the blur. If it is, the "
+#~ "image will be more legible."
+#~ msgstr ""
+#~ "Có tính cả điểm ảnh gốc cho hiệu ứng mờ hoặc không. Nếu có thì hình ảnh "
+#~ "sẽ rõ ràng hơn."
+
+#~ msgid "Prefer closer pixels"
+#~ msgstr "Ưu tiên các điểm ảnh gần hơn"
+
+#~ msgid ""
+#~ "Whether or not the pixels that are closer to the original pixel will have "
+#~ "more weight."
+#~ msgstr "Các điểm ảnh gần hơn điểm ảnh gốc sẽ có thêm độ đậm."
+
+#~ msgid ""
+#~ "An effect that adds a random noise. Prefer the Monte Carlo blur for a "
+#~ "more organic effect if needed."
+#~ msgstr ""
+#~ "Hiệu ứng thêm nhiễu ngẫu nhiên. Nên cân nhắc sử dụng hiệu ứng làm mờ "
+#~ "Monte Carlo cho hiệu ứng tự nhiên hơn nếu cần."
+
+#~ msgid "Corner"
+#~ msgstr "Góc"
+
+#~ msgid ""
+#~ "An effect that draws corners. Add it last not to have the other effects "
+#~ "perturb the corners."
+#~ msgstr ""
+#~ "Hiệu ứng vẽ góc. Hãy thêm nó sau cùng nhằm tránh các hiệu ứng khác làm "
+#~ "sai lệch các góc."
+
+#~ msgid ""
+#~ "The radius of the corner. GNOME apps use a radius of 12 px by default."
+#~ msgstr ""
+#~ "Bán kính của góc. Các ứng dụng của GNOME dùng bán kính12px theo mặc định."
+
+#~ msgid "Top corners"
+#~ msgstr "Các góc trên cùng"
+
+#~ msgid "Whether or not to round the top corners."
+#~ msgstr "Có làm tròn các góc trên cùng hoặc không."
+
+#~ msgid "Bottom corners"
+#~ msgstr "Các góc dưới cùng"
+
+#~ msgid "Whether or not to round the bottom corners."
+#~ msgstr "Có làm tròn các góc dưới cùng hoặc không."
+
+#~ msgid ""
+#~ "Adds blur to the applications.\n"
+#~ "To get the best results possible, although with reduced performances, you "
+#~ "can choose the option “No artifact” in the “Other → Hack level” tab."
+#~ msgstr ""
+#~ "Thêm độ mờ cho các ứng dụng.\n"
+#~ "Để đạt kết quả tốt nhất có thể, dù có giảm hiệu năng, bạn có thể chọn "
+#~ "\"Không có tạo tác\" trong mục \"Khác → Hack level\"."
+
+#~ msgid ""
+#~ "The dynamic blur is slower and only compatible with a gaussian blur "
+#~ "effect."
+#~ msgstr ""
+#~ "Hiệu ứng mờ động sẽ chậm hơn và chỉ tương tích với hiệu ứng làm mờ "
+#~ "Gaussian."
+
+#~ msgid "Hack level"
+#~ msgstr "Mức độ hack"
+
+#~ msgid ""
+#~ "Changes the behaviour of the dynamic blur effect. The default value is "
+#~ "highly recommended.\n"
+#~ "The “No artifact” option will entirely disable clipped redraws in GNOME "
+#~ "shell, and will impact your computer performances significantly."
+#~ msgstr ""
+#~ "Thay đổi phản ứng của làm hiệu ứng làm mờ động. Khuyến nghị sử dụng giá "
+#~ "trị mặc định.\n"
+#~ "Tùy chọn \"Không artifact\" sẽ được bỏ qua clipped redraw hoàn toàn trong "
+#~ "GNOME shell, và sẽ ảnh hưởng đáng kể đến hiệu năng của máy bạn."
+
+#~ msgid "High performances"
+#~ msgstr "Hiệu năng cao"
+
+#~ msgid "Default"
+#~ msgstr "Mặc định"
+
+#~ msgid "No artifact"
+#~ msgstr "Không artifact"
+
+#~ msgid "Disable when a window is near"
+#~ msgstr "Tắt khi một cửa sổ ở gần"
+
+#~ msgid "Disables the transparency of the panel when a window is near it."
+#~ msgstr "Tắt trong suốt thanh panel khi một cửa sổ ở gần nó."
+
+#~ msgid "A list of windows to blur."
+#~ msgstr "Một danh sách những cửa sổ sử dụng hiệu ứng mờ."
+
+#~ msgid "A list of windows not to blur."
+#~ msgstr "Một danh sách những cửa sổ không sử dụng hiệu ứng mờ."
+
+#~ msgid "Applications blur (beta)"
+#~ msgstr "Làm mờ ứng dụng (beta)"
+
+#~ msgid ""
+#~ "Adds blur to the applications. This is still beta functionality.\n"
+#~ "To get the best results possible, make sure to choose the option “No "
+#~ "artifact” in the “General → Hack level” preference.\n"
+#~ "        "
+#~ msgstr ""
+#~ "Thêm hiệu ứng mờ vào các ứng dụng. Đây vẫn là một tính năng beta.\n"
+#~ "Để nhận được kết quả tốt nhất, bật tùy chọn \"No artifact\" trong phần "
+#~ "\"Chung → Hack level\".\n"
+#~ "        "
+
+#~ msgid ""
+#~ "Adds blur behind all windows by default.\n"
+#~ "Not recommended because of performance and stability issues."
+#~ msgstr ""
+#~ "Thêm hiệu ứng mờ ở sau mọi cửa sổ theo mặc định.\n"
+#~ "Không nên vì có thể sẽ có những vấn đề hiệu năng và độ ổn định."
+
+#~ msgid "Customize properties"
+#~ msgstr "Tùy chỉnh các cài đặt"
+
+#~ msgid ""
+#~ "Uses customized blur properties, instead of the ones set in the General "
+#~ "page."
+#~ msgstr ""
+#~ "Sử dụng những cài đặt hiệu ứng mờ được tùy chỉnh, thay vì những cài đặt ở "
+#~ "trang Chung."
+
+#, fuzzy
+#~ msgid ""
+#~ "Changes the color of the blur. The opacity of the color controls how much "
+#~ "it is blended into the blur effect."
+#~ msgstr ""
+#~ "Đổi màu làm mờ. Độ mờ của màu kiểm soát mức độ hòa trộn của nó vào hiệu "
+#~ "ứng làm mờ."
+
+#~ msgid "Noise amount"
+#~ msgstr "Độ nhiễu"
+
+#~ msgid ""
+#~ "The amount of noise to add to the blur effect, useful on low-contrast "
+#~ "screens or for aesthetic purpose."
+#~ msgstr ""
+#~ "Lượng nhiễu được thêm vào để tạo hiệu ứng mờ, hữu ích trên màn hình có độ "
+#~ "tương phản thấp hoặc nhằm mục đích thẩm mỹ."
+
+#~ msgid "Noise lightness"
+#~ msgstr "Độ nhẹ nhiễu"
+
+#~ msgid "The lightness of the noise added to the blur effect."
+#~ msgstr "Mức độ nhẹ của độ nhiễu được thêm vào hiệu ứng làm mờ."
+
+#~ msgid "Notice"
+#~ msgstr "Chú ý"
+
+#, fuzzy
+#~ msgid ""
+#~ "Noise and color can't be activated on dynamically blurred components, "
+#~ "such as this one."
+#~ msgstr ""
+#~ "Không thể kích hoạt nhiễu và màu sắc trên các thành phần được làm mờ "
+#~ "động, chẳng hạn như thành phần này."
+
+#~ msgid "Static blur"
+#~ msgstr "Làm mờ tĩnh"
+
+#~ msgid "General"
+#~ msgstr "Chung"
+
+#~ msgid "Blur preferences"
+#~ msgstr "Cài đặt hiệu ứng mờ"
+
+#~ msgid "Global blur preferences, used by all components by default."
+#~ msgstr "Cài đặt hiệu ứng mờ chung cho tất cả các thành phần theo mặc định."
+
+#~ msgid "Color and noise effects"
+#~ msgstr "Màu và hiệu ứng nhiễu"
+
+#~ msgid "High quality"
+#~ msgstr "Chất lượng cao"
+
+#, fuzzy
+#~ msgid "Uses a static blurred image, more performant and stable."
+#~ msgstr "Sử dụng hình ảnh mờ tĩnh, hiệu suất cao hơn và ổn định hơn."
