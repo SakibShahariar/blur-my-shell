@@ -38,21 +38,21 @@ mkdir -p "$XDG_CONFIG_HOME" "$XDG_CACHE_HOME" "$XDG_STATE_HOME" "$XDG_DATA_HOME/
 unzip -q "$archive" -d "$extension_dir"
 glib-compile-schemas "$extension_dir/schemas"
 
-# add BMS settings to dock
-cat > "$XDG_DATA_HOME/applications/blur-my-shell-settings.desktop" <<EOF
+# add Material Blur settings to dock
+cat > "$XDG_DATA_HOME/applications/material-blur-settings.desktop" <<EOF
 [Desktop Entry]
 Type=Application
-Name=Blur my Shell Settings
+Name=Material Blur Settings
 Icon=org.gnome.Shell.Extensions
 Exec=gnome-extensions prefs $uuid
 Terminal=false
 EOF
 gsettings set org.gnome.shell favorite-apps "$(gsettings get org.gnome.shell favorite-apps \
-    | sed "s/\[/['blur-my-shell-settings.desktop', /")"
+    | sed "s/\[/['material-blur-settings.desktop', /")"
 gsettings set org.gnome.shell welcome-dialog-last-shown-version 999 # hide welcome dialog
 gsettings set org.gnome.desktop.peripherals.keyboard remember-numlock-state true
 gsettings set org.gnome.desktop.peripherals.keyboard numlock-state "$numlock_state"
-gsettings --schemadir "$extension_dir/schemas" set org.gnome.shell.extensions.blur-my-shell debug true
+gsettings --schemadir "$extension_dir/schemas" set org.gnome.shell.extensions.material-blur debug true
 gsettings set org.gnome.shell enabled-extensions "['$uuid']"
 
 if [ "$mode" != "native" ]; then
