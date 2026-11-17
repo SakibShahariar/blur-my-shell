@@ -1,9 +1,0 @@
-/build/
-*~
-.idea/
-.ts-for-gir.js
-.vscode/
-jsconfig.json
-@types/
-schemas/gschemas.compiled
-po/*.mo

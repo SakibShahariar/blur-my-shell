@@ -13,20 +13,20 @@ Gio._promisify(Gtk.FileDialog.prototype, 'save', 'save_finish');
 Gio._promisify(Gio.File.prototype, 'load_contents_async', 'load_contents_finish');
 Gio._promisify(Gio.File.prototype, 'replace_contents_bytes_async', 'replace_contents_finish');
 
-const EXPORTED_FILE_NAME = 'blur-my-shell.conf';
+const EXPORTED_FILE_NAME = 'material-blur.conf';
 
 const LINKS = [
     {
         name: 'open-bug-report',
-        link: 'https://github.com/aunetx/blur-my-shell/issues'
+        link: 'https://github.com/SakibShahariar/blur-my-shell/issues'
     },
     {
         name: 'open-readme',
-        link: 'https://github.com/aunetx/blur-my-shell'
+        link: 'https://github.com/SakibShahariar/blur-my-shell'
     },
     {
         name: 'open-license',
-        link: 'https://github.com/aunetx/blur-my-shell/blob/master/LICENSE'
+        link: 'https://github.com/SakibShahariar/blur-my-shell/blob/master/LICENSE'
     },
 ];
 
@@ -42,7 +42,7 @@ export function addMenu(window, preferences) {
     try {
         addMenuToHeader(window, builder);
     } catch (error) {
-        console.warn(`[Blur my Shell > menu]         could not add the menu: ${error}`);
+        console.warn(`[Material Blur > menu]         could not add the menu: ${error}`);
     }
     window.remove(menu_util);
 
@@ -107,7 +107,7 @@ function showFileError(window, error, title) {
     if (error.matches?.(Gtk.DialogError, Gtk.DialogError.DISMISSED))
         return;
 
-    console.warn(`[Blur my Shell > menu]         ${title}: ${error.message}`);
+    console.warn(`[Material Blur > menu]         ${title}: ${error.message}`);
     window.add_toast(new Adw.Toast({ title }));
 }
 

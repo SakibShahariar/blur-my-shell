@@ -9,7 +9,7 @@ import { Settings } from './settings/settings.js';
 import { KEYS } from './settings/keys.js';
 
 import { PanelBlur } from './components/panel/index.js';
-import { connect_system_style_changes, enable_system_style, disable_system_style } from './conveniences/style.js';
+import { enable_system_style, disable_system_style } from './conveniences/style.js';
 import { track_painted_views } from './render/backdrop/painted_view.js';
 import { SharedBackgrounds } from './render/static_blur/shared_backgrounds.js';
 import { clear_snippets } from './render/shader/snippet_cache.js';
