@@ -5,6 +5,7 @@ import { ui_template } from '../../resources.js';
 import { bind_settings } from '../../bind_settings.js';
 
 import '../../widgets/blur_mode_row.js';
+import '../../widgets/pipeline_choose_row.js';
 
 
 export const Panel = GObject.registerClass({

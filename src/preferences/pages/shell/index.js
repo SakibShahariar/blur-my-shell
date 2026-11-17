@@ -4,6 +4,7 @@ import GObject from 'gi://GObject';
 import { ui_template } from '../../resources.js';
 import { create_subpage } from '../../subpage.js';
 import { Panel } from './panel.js';
+import '../../widgets/component_row.js';
 
 export const ShellPage = GObject.registerClass({
     GTypeName: 'MaterialBlurShellPage',

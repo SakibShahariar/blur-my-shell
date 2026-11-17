@@ -1,7 +1,7 @@
 import Gio from 'gi://Gio';
 import GLib from 'gi://GLib';
 
-const RESOURCE_PATH = '/org/gnome/shell/extensions/blur-my-shell';
+const RESOURCE_PATH = '/org/gnome/shell/extensions/material-blur';
 
 export const ICONS_RESOURCE_PATH = `${RESOURCE_PATH}/icons/hicolor`;
 
