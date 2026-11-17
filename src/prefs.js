@@ -6,21 +6,15 @@ import { update_from_old_settings } from './settings/settings_updater.js';
 import { PipelinesManager } from './pipelines/pipelines_manager.js';
 import { Settings } from './settings/settings.js';
 import { KEYS } from './settings/keys.js';
-import { cancel_pick } from './dbus/client.js';
 
 import { ICONS_RESOURCE_PATH } from './preferences/resources.js';
 import { addMenu } from './preferences/menu.js';
 import { ShellPage } from './preferences/pages/shell/index.js';
-import { Applications } from './preferences/pages/applications.js';
 import { Pipelines } from './preferences/pages/pipelines/index.js';
 
-import './preferences/widgets/pipeline_choose_row.js';
-
-
-export default class BlurMyShellPreferences extends ExtensionPreferences {
+export default class MaterialBlurPreferences extends ExtensionPreferences {
     constructor(metadata) {
         super(metadata);
-
         Gtk.IconTheme.get_for_display(Gdk.Display.get_default())
             .add_resource_path(ICONS_RESOURCE_PATH);
     }
@@ -30,25 +24,17 @@ export default class BlurMyShellPreferences extends ExtensionPreferences {
         update_from_old_settings(gsettings);
 
         const preferences = new Settings(KEYS, gsettings);
-        const pipelines_manager = new PipelinesManager(preferences);
-
+        const pipelinesManager = new PipelinesManager(preferences);
         addMenu(window, preferences);
 
-        const pipelines_page = new Pipelines(preferences, pipelines_manager, window);
-        const applications_page = new Applications(
-            preferences, window, pipelines_manager, pipelines_page
-        );
-
-        window.add(new ShellPage(preferences, pipelines_manager, pipelines_page, window));
-        window.add(applications_page);
-        window.add(pipelines_page);
-        window.set_default_size(640, 840);
+        const pipelinesPage = new Pipelines(preferences, pipelinesManager, window);
+        window.add(new ShellPage(preferences, pipelinesManager, pipelinesPage, window));
+        window.add(pipelinesPage);
+        window.set_default_size(640, 760);
 
         window.connect('close-request', () => {
-            cancel_pick();
-            applications_page.cleanup();
-            pipelines_page.cleanup();
-            pipelines_manager.destroy();
+            pipelinesPage.cleanup();
+            pipelinesManager.destroy();
             preferences.disconnect_all_settings();
             return false;
         });

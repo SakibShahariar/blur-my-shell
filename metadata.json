@@ -1,6 +1,6 @@
 {
-    "description": "Adds blur to GNOME Shell: the top panel, the dash and overview, menus and notifications, the lock screen, and the windows of your applications. Every blur is made of effects you can tune, from a simple blur to Liquid Glass.\n\nPlease report bugs on GitHub instead of in the reviews, as reviews aren't checked for bug reports.",
-    "name": "Blur my Shell",
+    "description": "A focused GNOME Shell panel blur extension, derived from Blur my Shell. Designed to support custom panel surfaces and layouts.",
+    "name": "Material Blur",
     "shell-version": [
         "46",
         "47",
@@ -9,20 +9,16 @@
         "50",
         "51"
     ],
-    "url": "https://github.com/aunetx/blur-my-shell",
-    "uuid": "blur-my-shell@aunetx",
-    "gettext-domain": "blur-my-shell@aunetx",
-    "settings-schema": "org.gnome.shell.extensions.blur-my-shell",
+    "url": "https://github.com/SakibShahariar/blur-my-shell",
+    "uuid": "material-blur@SakibShahariar.github.io",
+    "gettext-domain": "material-blur@SakibShahariar.github.io",
+    "settings-schema": "org.gnome.shell.extensions.material-blur",
     "session-modes": [
         "unlock-dialog",
         "user"
     ],
     "original-authors": [
-        "me@aunetx.dev"
+        "aunetx (upstream Blur my Shell)"
     ],
-    "donations": {
-        "github": "aunetx",
-        "kofi": "aunetx"
-    },
     "version": 78
 }

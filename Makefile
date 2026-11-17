@@ -1,9 +1,9 @@
-NAME = blur-my-shell
-UUID = $(NAME)@aunetx
+NAME = material-blur
+UUID = $(NAME)@SakibShahariar.github.io
 VM_PATH = ~/Projects/shared/extensions
 POT = po/$(UUID).pot
 UI_SOURCES = $(shell find resources/ui -type f -name '*.ui' | sort)
-GRESOURCE = resources/$(NAME).gresource.xml
+GRESOURCE = resources/blur-my-shell.gresource.xml
 EFFECT_I18N_SOURCES = $(shell find src/effects -type f -name '*.js' | sort)
 PREFERENCES_I18N_SOURCES = $(shell find src/preferences -type f -name '*.js' | sort) src/prefs.js
 SOURCE_DIRS = $(filter-out styles,$(patsubst src/%/,%,$(wildcard src/*/)))
