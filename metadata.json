@@ -14,7 +14,6 @@
     "gettext-domain": "material-blur@SakibShahariar.github.io",
     "settings-schema": "org.gnome.shell.extensions.material-blur",
     "session-modes": [
-        "unlock-dialog",
         "user"
     ],
     "original-authors": [
